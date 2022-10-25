@@ -1,0 +1,14 @@
+
+
+-----------------ниже представлены обновленные данные по сотрудникам----------------
+{'id_worker': 1, 'second_name': 'Иванов', 'first_name': 'Иван', 'last_name': 'Иванович', 'post': 'директор', 'min_salary': 20000, 'max_salary': 50000}
+{'id_worker': 2, 'second_name': 'Петров', 'first_name': 'Пётр', 'last_name': 'Андреевич', 'post': 'главный бухгалтер', 'min_salary': 10000, 'max_salary': 40000}
+{'id_worker': 3, 'second_name': 'Сокольников', 'first_name': 'Семен', 'last_name': 'Петрович', 'post': 'охранник', 'min_salary': 15000, 'max_salary': 30000}
+{'id_worker': 4, 'second_name': 'Желтов', 'first_name': 'Геннадий', 'last_name': 'Антонович', 'post': 'менеджер', 'min_salary': 22000, 'max_salary': 35000}
+-----------------ниже представлены обновленные данные по сотрудникам----------------
+{'id_worker': 1, 'second_name': 'Иванов', 'first_name': 'Иван', 'last_name': 'Иванович', 'post': 'директор', 'min_salary': 20000, 'max_salary': 50000}
+{'id_worker': 2, 'second_name': 'Петров', 'first_name': 'Пётр', 'last_name': 'Андреевич', 'post': 'главный бухгалтер', 'min_salary': 10000, 'max_salary': 40000}
+{'id_worker': 3, 'second_name': 'Сокольников', 'first_name': 'Семен', 'last_name': 'Петрович', 'post': 'охранник', 'min_salary': 15000, 'max_salary': 30000}
+{'id_worker': 4, 'second_name': 'Желтов', 'first_name': 'Геннадий', 'last_name': 'Антонович', 'post': 'менеджер', 'min_salary': 22000, 'max_salary': 350005}
+{'id_worker': 5, 'second_name': 'Иванов', 'first_name': 'Леонид', 'last_name': 'Валентинович', 'post': 'бухгалтер', 'min_salary': 12765, 'max_salary': 13456}
+{'id_worker': 6, 'second_name': 'Клещин', 'first_name': 'Степан', 'last_name': 'Олегович', 'post': 'механизатор', 'min_salary': 13245, 'max_salary': 19567}

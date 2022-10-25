@@ -1,5 +1,5 @@
 import view
-import modul
 import controller
+import modul
 
 controller.klick_menu(view.menu())

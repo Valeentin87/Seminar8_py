@@ -31,6 +31,8 @@ def find_salary_workers():
     print(f'На предприятии работает {count} сотрудника с заработной платой от {min_salary} рублей  до  {max_salary} рублей')
     return new_ls
 
+#find_salary_workers()
+
 # --------------------модуль, позволяющий добавить нового сотрудника компании----------------------
 
 def add_new_worker():
@@ -44,18 +46,12 @@ def add_new_worker():
                 'max_salary': int(input('введите максимальную зарплату '))})
     return dct[len(dct)-1]
 
-exit ()
-view.print_all_workers(view.worker_dict())
 
-s = {
-    'a':1,
-    'b':2,
-    'c':3
-}
-
-s_new = list(s.values())
-s = ''
-for i in s_new:
-    s = s + str(i)+','
-print(s[:-1])
+def write_in_data_user(s):
+    s_new = list(s.values())
+    res_s = ''
+    for i in s_new:
+        res_s = res_s + str(i)+','
+    with open('data_user.txt', 'a', encoding= 'utf-8') as f:
+        f.write('\n'+res_s[:-1])
 

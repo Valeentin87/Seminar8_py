@@ -1,30 +1,26 @@
 import view
-import  modul
+import modul
 
 
 def klick_menu(number):
     if number == 1:
         return modul.find_name_worker()
-        # print('\n---------------------------------------------------------------------------------')
-        # n = view.menu()
     elif number == 2:
         result = modul.find_salary_workers()
         return print_list(result)
-        # print(f'вы добавили нового пользователя \n{g}')
-        # print('\n---------------------------------------------------------------------------------')
-        # n = view.menu()
+
     elif number == 3:
         return view.print_all_workers(view.worker_dict())
-        # print('\n---------------------------------------------------------------------------------')
+
 
     elif number == 4:
         return view.write_txtfile(view.worker_dict())
-        # print('\n---------------------------------------------------------------------------------')
-        # n = view.menu()
+
     elif number == 5:
-        return modul.add_new_worker()
-        # print('\n---------------------------------------------------------------------------------')
-        # n = view.menu()
+       s = modul.add_new_worker()
+       print('новый сотрудник успешно добавлен и записан в файл с базой \'data_user.txt\'')
+       return modul.write_in_data_user(s)
+
 
     else:
         return view.data_print('все добавленные сотрудники записаны в базу. Спасибо за работу!')

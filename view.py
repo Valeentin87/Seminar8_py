@@ -15,8 +15,6 @@ def menu():
         number_menu = int(input('N = '))
     return number_menu
 
-
-
 def worker_dict():
     workers = []
     with open('data_user.txt', 'r', encoding='utf-8') as data:
@@ -47,18 +45,22 @@ def print_all_workers(list):
     for i in range(len(list)):
         print(list[i])
 
-    print('\n ---------данные по сотрудникам записаны в файл \'all.workers.txt\' ------------------------')
+    #print('\n ---------данные по сотрудникам записаны в файл \'all.workers.txt\' ------------------------')
 
 #print_all_workers(worker_dict())
 
 
 # ----------------метод,позволяющий записать в txt файл данные по всем сотрудникам-------------------
 def write_txtfile(list):
+
     with open('all_workers.txt', 'a', encoding='utf-8') as f:
+        f.write('\n-----------------ниже представлены обновленные данные по сотрудникам----------------')
         for line in range(len(list)):
             s = str(list[line])
             f.writelines('\n' + s)
     print('\n ---------данные по сотрудникам записаны в файл \'all.workers.txt\' ------------------------')
+
+#write_txtfile(worker_dict())
 
 
 
